@@ -7,7 +7,7 @@ body {
     color: gray;
     margin: 0 0 0 30px;
     padding: 0;
-    height: 5000px;
+    height: 1000px;
     overflow-x: hidden;
     font-family: Fuentetitular;
 }
@@ -20,7 +20,7 @@ nav {
     font-size: 1.1rem;
     align-items: center;
     position: fixed;
-    z-index: 10;
+    z-index: 20;
 }
 
 a {
@@ -127,13 +127,15 @@ h4 {
 .photo-container {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 80%;
     height: 450px;
+    margin: 0 auto;
     overflow-x: scroll;
 }
 
 .cards-data {
     height: 400px;
+    width: 350px;
 }
 
 .contenedor-img {
@@ -277,9 +279,6 @@ h4 {
     gap: 5px;
 }
 
-.footer-grid > a {
-    padding: ;
-}
 #about-us {
     grid-column-start: 2;
     grid-row-start: 1;

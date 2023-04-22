@@ -1,0 +1,138 @@
+@media only screen and (max-width: 870px) {
+    body {
+        margin-left: 20px;
+        display: block;
+    }
+    
+    .nav_main_items {
+        display: none;
+    }
+
+    nav > div > button {
+        display: none;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 400px 200px 600px;
+        position: relative;
+    }
+
+    .main-intro {
+        width: 100vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0px;
+        grid-row-start: 1;
+    }
+
+    #page-title {
+        margin: 0;
+        width: 100vw;
+        font-size: 7rem;
+        z-index: 10;
+        background: #ccc;
+        background: linear-gradient(rgba(101,64,44,255), rgba(201,161,140,255));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    #main-description {
+        width: 800px;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        z-index: 10;
+        grid-row-start: 3;
+    }
+
+    .space-button {
+        width: 800px;
+        grid-row-end: 3;
+    }
+
+    .buttons {
+        width: 35px;
+        vertical-align: center;
+    }
+
+    #search {
+        position: absolute;
+        font-size: 1.8rem;
+        color: rgba(152,152,152,255);
+        margin-left: 50px;
+        margin-bottom: 70px;
+    }
+
+    #mainimage-container {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        display: block;
+        z-index: 0;
+    }
+
+    #mainimage-container > img {
+        display: block;
+        width: 800px;
+        height: 600px;
+    }
+
+    .popular-order {
+        display: flex;
+        margin-top: 900px;
+        width: 100vw;
+    }
+
+    .popular-order > #popular-properties {
+        font-size: 7rem;
+        background: #ccc;
+        background: linear-gradient(rgba(101,64,44,255), rgba(201,161,140,255));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .popular-simbols {
+        display: none;
+    }
+
+    .photo-container {
+        
+    }
+
+    .claims-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #claim-your-living {
+        font-size: 7rem;
+        background: #ccc;
+        background: linear-gradient(rgba(101,64,44,255), rgba(201,161,140,255));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        margin: 30px 0 0 0;
+    }
+
+    .claims-img {
+        width: 100vw;
+    }
+    .claims-img > img {
+
+    }
+
+    #learn-more {
+
+    }
+
+    #articles {
+        font-size: 7rem;
+        background: #ccc;
+        background: linear-gradient(rgba(101,64,44,255), rgba(201,161,140,255));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        margin: 30px 0;
+    }
+}
