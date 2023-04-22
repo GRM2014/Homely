@@ -1,0 +1,380 @@
+@font-face {
+    font-family: Fuentetitular;
+    src: url(HelveticaNowDisplay-Bold.ttf);
+}
+
+body {
+    color: gray;
+    margin: 0 0 0 30px;
+    padding: 0;
+    height: 5000px;
+    overflow-x: hidden;
+    font-family: Fuentetitular;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+    font-size: 1.1rem;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.nav_main_items > a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    color: rgba(101,64,44,255);
+
+}
+
+nav > img {
+    height: 70px;
+    margin-left: 30px;
+}
+
+.buttons {
+    margin-right: 60px;
+    background-image: linear-gradient(rgba(101,64,44,255), rgba(201,161,140,255));
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 5px;
+}
+
+.space-button {
+    width: 270px;
+    background-color: rgba(225,225,225,255);
+    border-radius: 22px;
+}
+
+.main-intro {
+    margin-top: 150px;
+}
+
+#page-title {
+    font-family: Fuentetitular;
+    margin-left: 60px;
+}
+
+container h1 {
+    color: rgba(101,64,44,255);
+    margin-left: 25px;
+}
+
+h1 {
+    color: rgba(101,64,44,255);
+    margin-left: 25px;
+}
+
+h2 {
+    height: 50px;
+    margin: 20px 30px;
+    color: rgba(101,64,44,255);
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+h3 {
+    color: rgba(101,64,44,255);
+    font-family: Fuentetitular;
+    margin-left: 25px;
+}
+
+h4 {
+    margin-left: 25px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 300px;
+    padding-top: 100px;
+}
+
+#mainimage {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.popular-order {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+.popular-simbols {
+    width: 100px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 450px;
+    overflow-x: scroll;
+}
+
+.cards-data {
+    height: 400px;
+}
+
+.contenedor-img {
+    width: 340px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 22px;
+}
+
+.image-cards {
+    object-fit: cover;
+    width: 320px;
+    height: 200px;
+    border-radius: 22px;
+    margin: 0 10px;
+}
+
+.contenedor-img > img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.claims-img {
+    position: relative;
+    width: 900px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 4%;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.claims-img > img {
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    border-radius: 22px;
+    left: -85px;
+    z-index: 1;
+}
+
+.claims-img > img:hover {
+    filter: grayscale(0.7);
+    transition: 0.5s;
+}
+
+.claims-flex{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+#Learn-more {
+    margin-left: 25px;
+    vertical-align: center;
+}
+
+#articles {
+    padding: 20px 0 10px 0;
+    margin-left: 3%;
+}
+
+.blog-articles {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 300px auto;
+    margin-left: 3%;
+    gap: 20px 0;
+}
+
+.blog-articles > img {
+    width: 300px;
+    border-radius: 22px;
+}
+
+.h2grid2 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.p2grid2 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin: 70px 50px 0 30px;
+}
+
+#pgrid1 {
+    height: 50px;
+    margin: 70px 50px 0 30px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+    background-image: linear-gradient(rgba(104,65,48,255), rgba(204,114,76,255));
+    border-radius: 22px;
+    color: white;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#h1_get-started {
+    color: white;
+    margin: 20px 0;
+}
+
+.text-get-started {
+    padding: 0 0 20px 0;
+}
+
+#button-start {
+    background-color: white;
+    color: rgba(101,64,44,255);
+    border: none;
+    border-radius: 22px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#button-start:hover,
+#button-start:active {
+    box-shadow: 8px 7px rgba(87, 86, 86, 0.384);
+    transition: 0.7s;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 250px auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    border-bottom: 2px solid gray;
+    gap: 5px;
+}
+
+.footer-grid > a {
+    padding: ;
+}
+#about-us {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#company {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+#support {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+#howwework {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+#whoweare {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#faqs {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+#features {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#news {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+#capital {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+#security {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+#help-support {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+#contact {
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+#govt {
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
+#document {
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+#help-legal {
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
+#legal {
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+#follow {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+#simbols{
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-flex > a {
+    padding-top: 30px;
+}
